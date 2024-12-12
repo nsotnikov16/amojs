@@ -33,5 +33,5 @@ define(['jquery'], function ($) {
       };
       return this;
     };
-    return CustomWidget;
+    return new CustomWidget();
   });
