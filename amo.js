@@ -7,6 +7,7 @@ define(['jquery'], function ($) {
       this.callbacks = {
         settings: function () {},
         init: function () {
+            console.log('asfasfasf')
           return true;
         },
         bind_actions: function () {
